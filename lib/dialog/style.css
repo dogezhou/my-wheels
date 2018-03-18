@@ -1,0 +1,39 @@
+.weiDialog {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weiDialog-wrapper {
+    background: white;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.weiDialog-header {
+    border-bottom: 1px solid;
+}
+
+.weiDialog-main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.weiDialog-footer {
+    text-align: right;
+}
+
+.weiDialog-footer button {
+    margin-left: 10px;
+}
+
+/* 用户修改 */
+.userDialog {
+    z-index: 100;
+}
